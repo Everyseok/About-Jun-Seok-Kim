@@ -108,7 +108,7 @@ export default function App() {
                 <h3 className="text-xs font-medium uppercase tracking-wider">Education</h3>
                 <div className="text-xs md:text-sm space-y-1.5">
                   <div>
-                    <div className="text-white/90 font-medium">Graduate</div>
+                    <div className="text-white/90 font-medium">M.S. (아직 졸업안함)</div>
                     <div className="text-xs text-white/70">Korea Maritime & Ocean Univ.</div>
                   </div>
                   <div className="pt-1">
