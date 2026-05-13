@@ -1,7 +1,11 @@
 {
-  "buildCommand": "pnpm install && pnpm build",
+  "buildCommand": "pnpm build",
   "outputDirectory": "dist",
+  "installCommand": "pnpm install --shamefully-hoist",
   "framework": "vite",
-  "installCommand": "pnpm install",
-  "devCommand": "pnpm dev"
+  "build": {
+    "env": {
+      "ENABLE_EXPERIMENTAL_COREPACK": "1"
+    }
+  }
 }
