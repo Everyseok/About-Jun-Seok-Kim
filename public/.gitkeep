@@ -1,0 +1,9 @@
+# Public Assets Directory
+
+Place your public assets here:
+- cv.pdf (your curriculum vitae)
+- favicon.ico (website icon)
+- og-image.png (Open Graph image for social sharing)
+- Any other static assets
+
+These files will be served from the root of your website.
