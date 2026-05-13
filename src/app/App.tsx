@@ -98,7 +98,7 @@ export default function App() {
                   </div>
                   <div className="flex items-start gap-2">
                     <Github className="w-3 h-3 md:w-4 md:h-4 mt-0.5 shrink-0 text-white/80" />
-                    <a href="#" className="text-white/90 hover:text-white">GitHub</a>
+                    <a href="https://github.com/Everyseok" target="_blank" rel="noopener noreferrer" className="text-white/90 hover:text-white">GitHub</a>
                   </div>
                 </div>
               </div>
@@ -540,16 +540,7 @@ export default function App() {
                   </div>
                   <div>
                     <div className="font-medium">GitHub</div>
-                    <a href="#" className="text-primary hover:underline">github.com/username</a>
-                  </div>
-                </div>
-                <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-                    <ExternalLink className="w-5 h-5 text-primary" />
-                  </div>
-                  <div>
-                    <div className="font-medium">Google Scholar</div>
-                    <a href="#" className="text-primary hover:underline">View Publications</a>
+                    <a href="https://github.com/Everyseok" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">github.com/Everyseok</a>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -558,7 +549,7 @@ export default function App() {
                   </div>
                   <div>
                     <div className="font-medium">ORCID</div>
-                    <a href="#" className="text-primary hover:underline">ORCID Profile</a>
+                    <a href="https://orcid.org/0009-0005-3218-4152" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">0009-0005-3218-4152</a>
                   </div>
                 </div>
               </div>
