@@ -13,54 +13,54 @@ export default function App() {
   const [activeTab, setActiveTab] = useState<TabType>('about');
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background overflow-x-hidden">
       {/* Top Navigation Tabs */}
-      <nav className="bg-primary shadow-sm">
+      <nav className="bg-primary shadow-sm overflow-x-auto">
         <div className="max-w-7xl mx-auto">
-          <div className="flex">
+          <div className="flex min-w-max">
             <button
               onClick={() => setActiveTab('about')}
-              className={`flex items-center gap-2 px-6 py-4 transition-colors ${
+              className={`flex items-center gap-2 px-4 md:px-6 py-3 md:py-4 transition-colors whitespace-nowrap ${
                 activeTab === 'about'
-                  ? 'bg-white text-primary font-medium'
+                  ? 'bg-white text-primary'
                   : 'text-white/80 hover:text-white hover:bg-primary/90'
               }`}
             >
               <User className="w-4 h-4" />
-              ABOUT ME
+              <span className="text-sm md:text-base">ABOUT ME</span>
             </button>
             <button
               onClick={() => setActiveTab('experience')}
-              className={`flex items-center gap-2 px-6 py-4 transition-colors ${
+              className={`flex items-center gap-2 px-4 md:px-6 py-3 md:py-4 transition-colors whitespace-nowrap ${
                 activeTab === 'experience'
-                  ? 'bg-white text-primary font-medium'
+                  ? 'bg-white text-primary'
                   : 'text-white/80 hover:text-white hover:bg-primary/90'
               }`}
             >
               <Briefcase className="w-4 h-4" />
-              EXPERIENCE
+              <span className="text-sm md:text-base">EXPERIENCE</span>
             </button>
             <button
               onClick={() => setActiveTab('achievements')}
-              className={`flex items-center gap-2 px-6 py-4 transition-colors ${
+              className={`flex items-center gap-2 px-4 md:px-6 py-3 md:py-4 transition-colors whitespace-nowrap ${
                 activeTab === 'achievements'
-                  ? 'bg-white text-primary font-medium'
+                  ? 'bg-white text-primary'
                   : 'text-white/80 hover:text-white hover:bg-primary/90'
               }`}
             >
               <BookOpen className="w-4 h-4" />
-              ACHIEVEMENTS
+              <span className="text-sm md:text-base">ACHIEVEMENTS</span>
             </button>
             <button
               onClick={() => setActiveTab('contact')}
-              className={`flex items-center gap-2 px-6 py-4 transition-colors ${
+              className={`flex items-center gap-2 px-4 md:px-6 py-3 md:py-4 transition-colors whitespace-nowrap ${
                 activeTab === 'contact'
-                  ? 'bg-white text-primary font-medium'
+                  ? 'bg-white text-primary'
                   : 'text-white/80 hover:text-white hover:bg-primary/90'
               }`}
             >
               <Mail className="w-4 h-4" />
-              CONTACT ME
+              <span className="text-sm md:text-base">CONTACT ME</span>
             </button>
           </div>
         </div>
