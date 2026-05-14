@@ -14,6 +14,13 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-background overflow-x-hidden">
+      <div
+        className="w-full bg-white border-[3px] border-[#0B3045] text-[#0B3045] text-center font-black px-3 py-5 md:py-6 text-[20px] sm:text-[28px] md:text-[34px] lg:text-[38px] xl:text-[39px] 2xl:text-[44px] leading-tight tracking-[-0.03em]"
+        style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}
+      >
+        Scheduled to serve in the ROK NAVY · Expected discharge: Apr. 2027
+      </div>
+
       {/* Top Navigation Tabs */}
       <nav className="bg-primary shadow-sm overflow-x-auto">
         <div className="max-w-7xl mx-auto">
