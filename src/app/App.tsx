@@ -118,40 +118,46 @@ export default function App() {
                 </div>
               </div>
 
-              {/* Skills */}
-              <div className="space-y-2 pt-3 md:pt-4 border-t border-white/20">
-                <h3 className="text-xs font-medium uppercase tracking-wider">Key Skills</h3>
-                <div className="grid grid-cols-1 gap-1.5 text-xs">
-                  <div className="flex items-center gap-2">
-                    <div className="w-1 h-1 rounded-full bg-white/80" />
-                    <span className="text-white/90">MATLAB-based Image Processing</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-1 h-1 rounded-full bg-white/80" />
-                    <span className="text-white/90">Python-based Algorithm Development</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-1 h-1 rounded-full bg-white/80" />
-                    <span className="text-white/90">High-Speed Camera Operation</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-1 h-1 rounded-full bg-white/80" />
-                    <span className="text-white/90">Optical laser diagnostics</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-1 h-1 rounded-full bg-white/80" />
-                    <span className="text-white/90">High voltage equipment operation</span>
-                  <div>
-                  <div className="flex items-center gap-2">                    
-                    <div className="w-1 h-1 rounded-full bg-white/80" />
-                    <span className="text-white/90">Experimental Data Analysis</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-1 h-1 rounded-full bg-white/80" />
-                    <span className="text-white/90">Scientific Manuscript Writing</span>
-                  </div>
-                </div>
-              </div>
+  {/* Skills */}
+<div className="space-y-2 pt-3 md:pt-4 border-t border-white/20">
+  <h3 className="text-xs font-medium uppercase tracking-wider">Key Skills</h3>
+  <div className="grid grid-cols-1 gap-1.5 text-xs">
+    <div className="flex items-center gap-2">
+      <div className="w-1 h-1 rounded-full bg-white/80" />
+      <span className="text-white/90">MATLAB-based Image Processing</span>
+    </div>
+
+    <div className="flex items-center gap-2">
+      <div className="w-1 h-1 rounded-full bg-white/80" />
+      <span className="text-white/90">Python-based Algorithm Development</span>
+    </div>
+
+    <div className="flex items-center gap-2">
+      <div className="w-1 h-1 rounded-full bg-white/80" />
+      <span className="text-white/90">High-Speed Camera Operation</span>
+    </div>
+
+    <div className="flex items-center gap-2">
+      <div className="w-1 h-1 rounded-full bg-white/80" />
+      <span className="text-white/90">Optical Laser Diagnostics</span>
+    </div>
+
+    <div className="flex items-center gap-2">
+      <div className="w-1 h-1 rounded-full bg-white/80" />
+      <span className="text-white/90">High-Voltage Equipment Operation</span>
+    </div>
+
+    <div className="flex items-center gap-2">
+      <div className="w-1 h-1 rounded-full bg-white/80" />
+      <span className="text-white/90">Experimental Data Analysis</span>
+    </div>
+
+    <div className="flex items-center gap-2">
+      <div className="w-1 h-1 rounded-full bg-white/80" />
+      <span className="text-white/90">Scientific Manuscript Writing</span>
+    </div>
+  </div>
+</div>
 
               {/* Download CV */}
               <div className="pt-3 md:pt-4 border-t border-white/20">
