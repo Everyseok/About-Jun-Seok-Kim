@@ -14,11 +14,44 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-background overflow-x-hidden">
+      <style>
+        {`
+          @keyframes navy-service-marquee {
+            from {
+              transform: translateX(-50%);
+            }
+            to {
+              transform: translateX(0);
+            }
+          }
+        `}
+      </style>
+
       <div
-        className="w-full bg-white border-[3px] border-[#0B3045] text-[#0B3045] text-center font-black px-3 py-5 md:py-6 text-[20px] sm:text-[28px] md:text-[34px] lg:text-[38px] xl:text-[39px] 2xl:text-[44px] leading-tight tracking-[-0.03em]"
-        style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}
+        className="w-full overflow-hidden bg-white border-[3px] border-[#0B3045] text-[#0B3045] text-center font-black px-0 md:px-3 py-5 md:py-6 leading-tight tracking-[-0.03em]"
+        style={{
+          fontFamily: 'Arial, Helvetica, sans-serif',
+          fontWeight: 900,
+          textShadow: '0.45px 0 #0B3045, -0.45px 0 #0B3045'
+        }}
       >
-        Scheduled to serve in the ROK NAVY · Expected discharge: Apr. 2027
+        <div className="hidden md:block whitespace-nowrap text-[clamp(24px,2.72vw,44px)]">
+          Scheduled to serve in the ROK NAVY · Expected discharge: Apr. 2027
+        </div>
+        <div
+          className="md:hidden w-full overflow-hidden text-[22px] whitespace-nowrap"
+          aria-label="Scheduled to serve in the ROK NAVY · Expected discharge: Apr. 2027"
+        >
+          <div
+            className="flex w-max"
+            style={{ animation: 'navy-service-marquee 9s linear infinite' }}
+          >
+            <span className="px-8">Scheduled to serve in the ROK NAVY · Expected discharge: Apr. 2027</span>
+            <span className="px-8" aria-hidden="true">
+              Scheduled to serve in the ROK NAVY · Expected discharge: Apr. 2027
+            </span>
+          </div>
+        </div>
       </div>
 
       {/* Top Navigation Tabs */}
