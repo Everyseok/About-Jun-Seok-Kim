@@ -18,10 +18,10 @@ export default function App() {
         {`
           @keyframes navy-service-marquee {
             from {
-              transform: translateX(-50%);
+              transform: translateX(0);
             }
             to {
-              transform: translateX(0);
+              transform: translateX(-50%);
             }
           }
         `}
