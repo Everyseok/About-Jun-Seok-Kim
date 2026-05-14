@@ -140,6 +140,9 @@ export default function App() {
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-1 h-1 rounded-full bg-white/80" />
+                    <span className="text-white/90">High voltage equipment operation</span>
+                  <div className="flex items-center gap-2">
+                    <div className="w-1 h-1 rounded-full bg-white/80" />
                     <span className="text-white/90">Experimental Data Analysis</span>
                   </div>
                   <div className="flex items-center gap-2">
