@@ -36,19 +36,19 @@ export default function App() {
         }}
       >
         <div className="hidden md:block whitespace-nowrap text-[clamp(24px,2.72vw,44px)]">
-          Scheduled to serve in the ROK NAVY · Expected discharge: Apr. 2027
+          Scheduled to serve in the ROK NAVY · Expected discharge: Apr. 2028
         </div>
         <div
           className="md:hidden w-full overflow-hidden text-[22px] whitespace-nowrap"
-          aria-label="Scheduled to serve in the ROK NAVY · Expected discharge: Apr. 2027"
+          aria-label="Scheduled to serve in the ROK NAVY · Expected discharge: Apr. 2028"
         >
           <div
             className="flex w-max"
             style={{ animation: 'navy-service-marquee 9s linear infinite' }}
           >
-            <span className="px-8">Scheduled to serve in the ROK NAVY · Expected discharge: Apr. 2027</span>
+            <span className="px-8">Scheduled to serve in the ROK NAVY · Expected discharge: Apr. 2028</span>
             <span className="px-8" aria-hidden="true">
-              Scheduled to serve in the ROK NAVY · Expected discharge: Apr. 2027
+              Scheduled to serve in the ROK NAVY · Expected discharge: Apr. 2028
             </span>
           </div>
         </div>
