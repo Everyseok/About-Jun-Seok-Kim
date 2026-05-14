@@ -119,7 +119,7 @@ export default function App() {
                   <img src={profileImage} alt="Jun Seok Kim" className="w-full h-full object-cover" />
                 </div>
                 <h2 className="text-lg md:text-xl font-medium text-center">Jun Seok Kim</h2>
-                <p className="text-xs md:text-sm text-white/80 text-center mt-1">Independent Researcher</p>
+                <p className="text-xs md:text-sm text-white/80 text-center mt-1">Researcher</p>
               </div>
 
               {/* Contact Section */}
